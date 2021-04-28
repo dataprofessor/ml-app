@@ -19,9 +19,9 @@ def build_model(df):
 
     st.markdown('**1.2. Data splits**')
     st.write('Training set')
-    st.info(X.shape)
+    st.info(X_train.shape)
     st.write('Test set')
-    st.info(Y.shape)
+    st.info(X_test.shape)
 
     st.markdown('**1.3. Variable details**:')
     st.write('X variable')
