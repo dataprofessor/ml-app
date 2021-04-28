@@ -17,6 +17,9 @@ def build_model(df):
     X = df.iloc[:,:-1] # Using all column except for the last column as X
     Y = df.iloc[:,-1] # Selecting the last column as Y
 
+    # Data splitting
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=(100-split_size)/100)
+    
     st.markdown('**1.2. Data splits**')
     st.write('Training set')
     st.info(X_train.shape)
@@ -28,9 +31,6 @@ def build_model(df):
     st.info(list(X.columns))
     st.write('Y variable')
     st.info(Y.name)
-
-    # Data splitting
-    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=(100-split_size)/100)
 
     rf = RandomForestRegressor(n_estimators=parameter_n_estimators,
         random_state=parameter_random_state,
