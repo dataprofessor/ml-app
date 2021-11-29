@@ -2,9 +2,9 @@
 
 # Watch the tutorial video
 
-[How to Build a Machine Learning App (Streamlit + Scikit-learn in Python)](https://youtu.be/eT3JMZagMnE)
+[How to Build a Machine Learning App | Streamlit #13](https://youtu.be/eT3JMZagMnE)
 
-<a href="https://youtu.be/eT3JMZagMnE"><img src="http://img.youtube.com/vi/eT3JMZagMnE/0.jpg" alt="How to Build a Machine Learning App (Streamlit + Scikit-learn in Python)" title="How to Build a Machine Learning App (Streamlit + Scikit-learn in Python)" width="400" /></a>
+<a href="https://youtu.be/eT3JMZagMnE"><img src="http://img.youtube.com/vi/eT3JMZagMnE/0.jpg" alt="How to Build a Machine Learning App | Streamlit #13" title="How to Build a Machine Learning App | Streamlit #13" width="400" /></a>
 
 # Demo
 
